@@ -1,0 +1,201 @@
+/*==================================
+    Extra CSS
+====================================*/
+.parent .comment-list {
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-bottom: 0;
+}
+
+/*Header CSS*/
+.logo_wrap {
+    min-width: 200px;
+}
+.logo_wrap h2{
+    margin-bottom: 0;
+}
+.header_search button.main_btn {
+    display: none;
+}
+.top_menu .float-left p a{
+    color: #4a4a4a;
+}
+.banner_area .banner_inner .banner_content p{
+    color: #797979;
+    font-size: 14px;
+}
+.header_logo h2 {
+	line-height: 26px;
+	margin-bottom: 0
+}
+.header_logo h2 a {
+	line-height: 26px!important;
+	margin: 0;
+	padding: 0;
+	height: auto !important;
+}
+
+
+.primary_menu_container{
+    position: relative
+}
+.header_search{
+    position: absolute;
+    right: 0;
+    width: 100%;
+    top: -100px;
+    z-index: -100;
+    transition: 0.4s
+
+}
+.header_search.show_search{
+    top: 81px;
+    z-index: 10;
+}
+
+.f0f-content{
+    padding: 100px 0
+}
+.header_area .navbar .nav .nav-item.submenu ul li ul{
+    position: absolute;
+    top: 10px;
+    left: 100%;
+    min-width: 200px;
+    text-align: left;
+    opacity: 0;
+    transition: all 300ms ease-in;
+    visibility: hidden;
+    display: block;
+    border: none;
+    padding: 0px;
+    border-radius: 0px;
+}
+.header_area .navbar .nav .nav-item ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    top: 10px !important;
+}
+.page_link .breadcrumb{
+    background: transparent;
+}
+
+.page_link .breadcrumb .s-text17 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #797979;
+    font-family: "Roboto", sans-serif;
+    margin-right: 18px;
+    position: relative;
+    padding-left: .5rem;
+}
+.breadcrumb .breadcrumb-item{
+    color: #797979;
+    word-wrap: break-all
+}
+input#search_input::placeholder {
+	color: #fff;
+}
+
+
+/*============Features==============*/
+.single-feature .title{
+    transition: 0.4s;
+}
+
+
+
+/* Nice Select CSS */
+.nice-select{
+    background: #f6f6f6;
+}
+.nice-select, .nice-select .list{
+    width: 100%;
+}
+
+.blog_details .nice-select ul li{
+    margin-left: 0;
+}
+
+/* =============Single Page =============== */
+span.sl-wrapper a {
+    color: #797979;
+    margin-left: 5px;
+}
+.posts-list .single-post{
+    overflow: hidden;
+}
+.blog_details > ul, .blog_details > ol{
+    padding: 0px;
+    margin: 0px 0 15px 0;
+}
+.blog_details ul li, .blog_details ol li{
+    margin-left: 20px;
+    padding: 5px 0;
+}
+.wp-block-gallery li{
+    padding: 0 !important;
+}
+blockquote{
+    background: rgba(130,139,178,0.1);
+    padding: 30px !important;
+    line-height: 1.733;
+    color: #888888;
+    font-style: italic;
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+}
+blockquote p{
+    background: #fff;
+    padding: 25px 25px 25px 30px;
+    border-left: 2px solid #f81c1c;
+    margin-bottom: 0 !important;
+}
+.tag_list{
+	clear: both;
+}
+.tag_list span{
+	color: #2a2a2a;
+	font-weight: 600
+}
+.tag_list a {
+    margin: 5px;
+	display: inline-block;
+	color: #888888
+}
+.tag_list a::after{
+	content: ', '
+}
+.tag_list a:last-child::after{
+	content: ''
+}
+.single-comment .user .desc{
+	width: 97%
+}
+
+/*======= Footer Widget ==========*/
+.single-footer-widget ul.menu{
+
+}
+.single-footer-widget  ul  li{
+    display: block;
+    margin-bottom: 15px;
+    transition: all 300ms linear 0s;
+}
+.single-footer-widget ul li a{
+    font-size: 14px;
+    color: #888888;
+    text-transform: capitalize;
+}
+
+.single-footer-widget ul li:hover a{
+    color: #f81c1c
+}
+
+.instagram_gallery a img {
+	width: initial !important;
+}
+.instagram_gallery a {
+	display: inline-block;
+	width: 29%;
+	margin: 6px;
+}
