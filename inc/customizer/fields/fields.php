@@ -320,7 +320,7 @@ Colorlib_Customizer::add_field(
 			'social_icon'        => array(
 				'label'   => esc_html__( 'Icon', 'bizcon' ),
 				'type'    => 'colorlib-icon-picker',
-				'default' => 'fa fa-twitter',
+				'default' => 'fa-brands fa-twitter',
 			),
 			
 		),
