@@ -244,7 +244,7 @@
 						'handler'		=> 'bizcon-theme-bizcon-custom',
 						'file' 			=> $jsPath.'custom.js',
 						'dependency' 	=> array( 'bizcon-ui-js' ),
-						'version' 		=> $this->bizcon_version . '-s2',
+						'version' 		=> $this->bizcon_version . '-s3',
 						'in_footer' 	=> true
 					),
 

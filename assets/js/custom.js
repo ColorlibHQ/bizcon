@@ -87,7 +87,7 @@
       });
       //UPDATED
       el.addEventListener('afterChange', function (e) {
-        UI.toElements('.content').forEach(function (content) {
+        UI.toElements('.content[data-id]').forEach(function (content) {
           content.style.display = 'none';
         });
         UI.toElements('.content[data-id="' + (e.detail.currentSlide + 1) + '"]').forEach(show);

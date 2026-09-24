@@ -14,6 +14,7 @@ function bizcon_sl_enqueue_scripts() {
 
 	wp_localize_script( 'bizcon-post-likes', 'simpleLikes', array(
 		'ajaxurl' => admin_url( 'admin-ajax.php' ),
+		'like'    => esc_html__( 'Like', 'bizcon' ),
 		'unlike'  => esc_html__( 'Unlike', 'bizcon' )
 	) );
 }
