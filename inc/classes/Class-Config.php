@@ -247,13 +247,6 @@
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'bizcon-theme-instagram-feed-js',
-						'file' 			=> $jsPath.'jquery.instagramFeed.min.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
-						'in_footer' 	=> true
-					),
-					array(
 						'handler'		=> 'bizcon-theme-owl-carousel-js',
 						'file' 			=> $jsPath.'owl.carousel.min.js',
 						'dependency' 	=> array( 'jquery' ),
@@ -269,10 +262,17 @@
 					),
 					
 					array(
+						'handler'		=> 'bizcon-ui-js',
+						'file' 			=> $jsPath.'colorlib-ui.js',
+						'dependency' 	=> array(),
+						'version' 		=> '2.1.1',
+						'in_footer' 	=> true
+					),
+					array(
 						'handler'		=> 'bizcon-theme-bizcon-custom',
 						'file' 			=> $jsPath.'custom.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> $this->bizcon_version,
+						'dependency' 	=> array( 'jquery', 'bizcon-ui-js' ),
+						'version' 		=> $this->bizcon_version . '-s1',
 						'in_footer' 	=> true
 					),
 
