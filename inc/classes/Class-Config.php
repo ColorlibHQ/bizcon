@@ -191,7 +191,7 @@
 						'handler'		=> 'bizcon-theme-flaticon',
 						'file' 			=> $cssPath.'flaticon.css',
 						'dependency' 	=> array(),
-						'version' 		=> '1.0',
+						'version' 		=> '1.0-s3',
 					),
 					array(
 						'handler'		=> 'bizcon-theme-magnific-popup-css',
@@ -215,7 +215,7 @@
 						'handler'		=> 'bizcon-theme-style-css',
 						'file' 			=> $cssPath.'style.css',
 						'dependency' 	=> array(),
-						'version' 		=> '1.0',
+						'version' 		=> '1.0-s3',
 					),
 					
 					array(
