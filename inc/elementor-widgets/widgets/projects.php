@@ -201,9 +201,8 @@ class Bizcon_projects extends Widget_Base {
         if( \Elementor\Plugin::$instance->editor->is_edit_mode() === true  ) {
         ?>
         <script>
-        ( function( $ ){
-
-        })(jQuery);
+        (function () {
+        })();
         </script>
         <?php 
         }
